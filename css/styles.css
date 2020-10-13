@@ -1,0 +1,14 @@
+@import "./styles/container.css";
+@import "./styles/landing.css";
+.landing {
+  background-image: url("../images/Fusion2.png");
+}
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(30,69,2);
+}
