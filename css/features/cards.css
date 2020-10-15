@@ -42,15 +42,16 @@
 
 
 .card img {
+  border: 1px solid rgba(0,0,0,0.2);
   margin: auto;
   width:175px;
   height:175px;
   border-radius: 30%;
-  box-shadow: 2px 2px 2px #ccc;
+  box-shadow: 1px 1px 1px  #ccc;
   cursor: pointer;
 }
 .card img:hover{
-  box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 3px 3px 3px  #ccc;
 }
 .card h1{
   font-style: oblique;
