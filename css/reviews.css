@@ -14,11 +14,13 @@ body {
   text-decoration: underline;
   font-weight: bold;
   letter-spacing: 1px;
+  padding: 10px;
 }
 .reviews {
   display: flex;
   margin: auto;
   max-width: 1000px;
+  flex-direction: column;
 }
 .grid-review {
   display: grid;
@@ -80,9 +82,9 @@ body {
 .content {
   grid-area: content;
 }
-.grid-review > div {
+/* .grid-review > div {
   border: 1px black solid;
-}
+} */
 .image img {
   max-width: 65px;
   max-height: 65px;
@@ -91,9 +93,10 @@ body {
 h1{
     font-size: 24px;
     font-weight: bold;
-    margin:10px
+    margin:10px;
 }
 p{
     font-size: 16px;
     margin: 10px 20px;
+    line-height: 21px;
 }
