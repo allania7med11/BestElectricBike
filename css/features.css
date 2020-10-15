@@ -2,6 +2,9 @@
 body {
   background-color: beige;
 }
+* {
+  box-sizing: border-box;
+}
 .title {
   text-align: center;
   font-size: 32px;
