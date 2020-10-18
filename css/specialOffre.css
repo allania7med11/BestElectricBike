@@ -48,7 +48,7 @@ body {
   text-decoration-line: line-through;
 }
 .info-price .new {
-  margin-left: 15px;
+  margin-left: 10px;
   color: blue;
 }
 .info-subprice {
@@ -96,10 +96,22 @@ body {
 .info-action a:hover{
   box-shadow: 0 4px 10px 0 rgba(0,0,0,0.25);
 }
-.offre {
+.offre-container{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 10px;
+}
+
+.offre {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.offre:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 div {
   display: block;
@@ -112,13 +124,11 @@ div {
 }
 .image {
   width: 54%;
-  max-width: 500px;
   background-color: #fff;
   padding: 10px;
 }
 .info {
   width: 46%;
-  max-width: 400px;
   padding-top: 20px;
   padding-bottom: 70px;
   display: flex;
@@ -128,12 +138,12 @@ div {
 }
 @media only screen and (max-width: 600px) {
   .image{
-    width:95%;
-    max-width: 95%;
+    width:100%;
+    max-width: 100%;
   }
   .info{
-    width:95%;
-    max-width: 95%;
+    width:100%;
+    max-width: 100%;
     padding-bottom: 20px;
   }
 }
