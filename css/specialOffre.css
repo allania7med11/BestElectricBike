@@ -1,0 +1,36 @@
+@import "./reset.css";
+body{
+  background-color: beige;
+}
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-family: "Sansita Swashed, sans-serif";
+  font-weight: bolder;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+.offre {
+  display: flex;
+  justify-content: center;
+}
+div{
+  display: block;
+}
+.offre > div {
+  min-height: 80vh;
+}
+.box {
+  border: 1px solid black;  
+}
+.image {
+  width: 60%;
+  max-width: 800px;
+}
+.info {
+  width: 30%;
+  max-width: 400px;
+}
