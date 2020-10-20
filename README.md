@@ -1,6 +1,6 @@
 # Landing Page for selling Electric Folding Fat Bike
 
-** Version 1.0.0 **
+**Version 1.0.0**
 
 this is a web page for converting visitors to buyers by
 showing landing page, features, reviews and  special offer
