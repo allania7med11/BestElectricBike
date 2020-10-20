@@ -15,8 +15,6 @@ in attractive way with calling to action in the end
 ## License & copyright
 © Allani Ahmed, Full Stack Web Developer
 
-## License & copyright
-© Allani Ahmed, Full Stack Web Developer
-
+---
 ## Deployment Link
 https://allania7med11.github.io/DeployLandingPage/
