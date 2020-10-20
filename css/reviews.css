@@ -32,7 +32,7 @@ body {
   grid-template-rows: 35px 35px auto;
 }
 
-.image {
+#reviews .image {
   grid-area: image;
   display: flex;
   justify-content: center;
@@ -85,17 +85,17 @@ body {
 /* .grid-review > div {
   border: 1px black solid;
 } */
-.image img {
+#reviews .image img {
   max-width: 65px;
   max-height: 65px;
   border-radius: 50%;
 }
-h1{
+#reviews  h1{
     font-size: 24px;
     font-weight: bold;
     margin:10px;
 }
-p{
+#reviews p{
     font-size: 16px;
     margin: 10px 20px;
     line-height: 21px;

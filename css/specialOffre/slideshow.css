@@ -3,7 +3,7 @@
 }
 
 /* Slideshow container */
-.slideshow-container {
+#specialOffre .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -74,11 +74,11 @@
 }
 
 /* The dots/bullets/indicators */
-.dots{
+#specialOffre  #dots{
   margin-top: 5px;
   padding: 10px;
 }
-.dot {
+#specialOffre .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -89,8 +89,8 @@
   transition: background-color 0.6s ease;
 }
 
-.active,
-.dot:hover {
+#specialOffre .active,
+#specialOffre .dot:hover {
   background-color: #717171;
 }
 
