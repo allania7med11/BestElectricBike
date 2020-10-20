@@ -119,9 +119,9 @@ div {
 .offre > div {
   min-height: 87vh;
 }
-.box {
+/* .box {
   border: 1px solid black;
-}
+} */
 #specialOffre .image {
   width: 54%;
   background-color: #fff;
