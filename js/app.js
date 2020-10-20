@@ -1,29 +1,26 @@
-/* var count = 0;
-sections = [features];
-var main = document.getElementById("main");
-function generateSections() {
-  const fragment = document.createDocumentFragment();
-  fragment.innerHTML = "<p>gggg</p>";
-  main.appendChild(fragment);
-  console.dir(main)  
-  count++;
-  if (count < 1) {
-    setTimeout(generateSections, 0);
+var id = "homeLink";
+// function to hundle scrolling and change active link
+handleScroll = function() {
+  var newId;
+  const tFeatures = document.getElementById("features").offsetTop;
+  const tReviews = document.getElementById("reviews").offsetTop;
+  const tOffer = document.getElementById("specialOffre").offsetTop;
+  if (1.1 * window.pageYOffset >= tOffer) {
+    newId = "offerLink";
+  } else if (1.1 * window.pageYOffset >= tReviews) {
+    newId = "reviewsLink";
+  } else if (1.1 * window.pageYOffset >= tFeatures) {
+    newId = "featuresLink";
+  } else {
+    newId = "homeLink";
   }
-}
-
-setTimeout(generateSections, 0);
- */
-let count = 0;
-var sections=[features]
-function generateParagraphs() {
-  const main = document.getElementById("main");
-  var element = document.createElement("div");
-  element.innerHTML  =sections[count];
-  main.appendChild(element);
-  if (count < 1) {
-    setTimeout(generateParagraphs, 0);
+  if (newId !== id) {
+    var old = document.getElementById(id);
+    old.classList.remove("active");
+    var nw = document.getElementById(newId);
+    nw.classList.add("active");
+    id = newId;
   }
-}
+};
+window.addEventListener("scroll", handleScroll);
 
-generateParagraphs();

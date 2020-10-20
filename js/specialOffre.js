@@ -10,7 +10,7 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }
-
+// function to hundle changing the slides and buy button color
 function showSlides(n) {
   var i;
   var color = ["rgb(239,73,48)", "rgb(4,136,230)", "rgb(26,26,26)"];
